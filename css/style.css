@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     align-content: space-around;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
     max-width: 1140px;
     margin: 0 auto;
@@ -434,7 +434,7 @@ body {
 
 .offer-item {
     width: 100%;
-    min-width: 360px;
+    max-width: 360px;
     min-height: 260px;
     margin-bottom: 30px;
     background-size: cover;
@@ -699,3 +699,126 @@ body {
 
 
 /* ======= END products ======= */
+
+@media (max-width: 1140px) {
+    .products-list {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 950px) {
+    .banner {
+        min-height: 368px;
+        margin: 0 0 20px 0;
+    }
+    .banner-wrp {
+        background-position: bottom left -16px;
+    }
+    .banner-title {
+        max-width: 283px;
+        margin: 0 85px 45px 0;
+        font-size: 44px;
+        line-height: 53px;
+    }
+    .banner-title::before {
+        height: 78px;
+    }
+    .banner-subtitle {
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
+
+@media (max-width: 768px) {
+    .offer {
+        margin-bottom: 109px;
+    }
+    .offer .center-block {
+        column-gap: 20px;
+    }
+    .offer-item {
+        min-height: 167px;
+        margin-bottom: 20px;
+    }
+    .products {
+        margin-bottom: 70px;
+    }
+    .products-header {
+        margin-bottom: 72px;
+    }
+    .products-header-title {
+        margin-bottom: 3px;
+    }
+    .products-list {
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 680px) {
+    .banner-wrp {
+        background-position: bottom left -85px;
+        background-size: 57%;
+    }
+}
+
+@media (max-width: 550px) {
+    .banner-wrp {
+        background-image: none;
+    }
+    .banner-title {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 375px) {
+    .page-header {
+        padding: 0 16px;
+        position: relative;
+    }
+    .account-btn,
+    .cart-btn-link {
+        visibility: hidden;
+    }
+    .menu-btn {
+        position: absolute;
+        top: 20px;
+        right: 16px;
+    }
+    .banner {
+        min-height: 363px;
+        margin-bottom: 64px;
+    }
+    .banner-title {
+        max-width: 263px;
+        font-size: 38px;
+        line-height: 45.6px;
+    }
+    .banner-title::before {
+        top: 5px;
+    }
+    .banner-subtitle {
+        max-width: 236px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .banner-title::before {
+        height: 61px;
+    }
+    .offer .center-block {
+        display: flex;
+    }
+    .offer-item {
+        max-width: 343px;
+        min-height: 247px;
+        margin: 0 auto 32px auto;
+    }
+    .offer-item:last-child {
+        max-width: 343px;
+        min-height: 111px;
+        margin: 0 auto;
+    }
+    .offer {
+        margin-bottom: 64px;
+    }
+}
