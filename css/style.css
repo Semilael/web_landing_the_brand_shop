@@ -289,7 +289,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   min-height: inherit;
-  background-image: url("../img/banner-wrp.png");
+  background-image: url("../img/banner-wrp.webp");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom left -225px;
@@ -358,19 +358,19 @@ body {
   background-blend-mode: darken;
 }
 .offer-item:nth-child(1) {
-  background-image: url(../img/offer-item1.png);
+  background-image: url(../img/offer-item1.webp);
 }
 .offer-item:nth-child(2) {
-  background-image: url(../img/offer-item2.png);
+  background-image: url(../img/offer-item2.webp);
 }
 .offer-item:nth-child(3) {
-  background-image: url(../img/offer-item3.png);
+  background-image: url(../img/offer-item3.webp);
 }
 .offer-item:last-child {
   max-width: 100%;
   min-height: 180px;
   margin: 0;
-  background-image: url(../img/offer-item4.png);
+  background-image: url(../img/offer-item4.webp);
 }
 .offer-item-link {
   width: 100%;
@@ -620,7 +620,7 @@ body {
 /* ======= END features ======= */
 /* ======= subscribe ======= */
 .subscribe {
-  background-image: url(../img/Subscribe-bc.png);
+  background-image: url(../img/Subscribe-bc.webp);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 448px;
@@ -633,7 +633,7 @@ body {
   max-width: 557px;
 }
 .subscribe-item-wrp-img {
-  background-image: url(../img/Subscribe-img.png);
+  background-image: url(../img/Subscribe-img_2.webp);
   background-repeat: no-repeat;
   min-height: 96px;
   max-width: 96px;
@@ -831,7 +831,7 @@ body {
     gap: 48px;
   }
   .subscribe-wrp {
-    background-image: url(../img/Subscribe-bc-tab.png);
+    background-image: url(../img/Subscribe-bc-tab.webp);
     flex-direction: column;
     padding-top: 64px;
     padding-bottom: 140px;
