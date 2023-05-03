@@ -672,7 +672,7 @@ body {
 .subscribe-item-input > input {
   border-radius: 20px 0 0 20px;
   border: none;
-  padding-left: 18px;
+  padding: 0 18px;
   max-width: 256px;
   width: 100%;
   font-weight: 400;
@@ -682,6 +682,9 @@ body {
   align-items: center;
   color: #222224;
   opacity: 0.67;
+}
+.subscribe-item-input > input:focus-visible {
+  outline-style: none;
 }
 .subscribe-item-input-btn {
   border-radius: 0 20px 20px 0;
@@ -848,7 +851,7 @@ body {
     margin: 0 auto;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .page-header {
     padding: 0 16px;
     position: relative;
