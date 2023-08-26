@@ -9,6 +9,9 @@ body {
   margin: 0;
   font-family: "Lato";
   background-color: #fff;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 .container {
